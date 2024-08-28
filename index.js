@@ -40,12 +40,12 @@ const billTotal = 84;
 
 // Calculate the tip (15% of the bill total)
 
-
+let tipAmount = (billTotal*0.15)
 
 
 // Print out the tipAmount
 
-
+console.log(tipAmount)
 
 
 /*******************************************
@@ -54,9 +54,9 @@ const billTotal = 84;
 
 // Generate a random integer between 1 and 10 (inclusive)
 
-
+let randomNumber = Math.floor(Math.random() *11)
 // Print the generated random number
-
+console.log(randomNumber)
 
 
 /*******************************************
